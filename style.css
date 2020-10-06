@@ -1,0 +1,105 @@
+body {
+	font-family: 'Nunito Sans';
+	border-width: 125px;
+	border-color: rgb(240, 130, 120);
+	border-style: solid;
+	margin: 0px;
+}
+main {
+	padding: 50px;
+}
+footer {
+	padding: 5px;
+}
+header { 
+	height: 336px;
+	width: 100%;
+	background-image: url("img/portada.jpg");
+	background-position: center;
+	background-size: 100%;
+	text-align: left;
+}
+h1 {
+	height: 30px;
+	color: white;
+	position: relative;
+	top: 180px;
+	left: 80px;
+	font-size: 300%;
+}
+table {
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+}
+th {
+	background-color: rgb(150, 0, 50);
+	padding: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+}
+tbody {
+ 	background-color: rgb(250, 200, 200);
+ 	text-align: center;
+}
+td {
+	padding: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+}
+.btn {
+	color: rgb(150, 0, 50);
+	background-color: rgb(250, 200, 200);
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: rgb(150, 0, 50);
+	border-width: thin;
+}
+.fotos {
+	width: 250px;
+}
+.video {
+	color: rgb(150, 80, 80);
+}
+.video:hover {
+	color: rgb(150, 0, 50);
+}
+.px {
+	width: 400px;
+}
+.links {
+	text-decoration: none;
+	color: black;
+}
+.links:hover {
+	color: rgb(50, 50, 50);
+	text-decoration: underline;
+}
+.work {
+	width: 220px;
+}
+.work:hover {
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+}
+h4 {
+	font-weight: lighter;
+}
+ol {
+	list-style-position: inside;
+	padding: 0px;
+}
+ul {
+	list-style-position: inside;
+	list-style-type: circle;
+	padding: 0px;
+}
+ol ul {
+	padding: 0px 20px;
+}
